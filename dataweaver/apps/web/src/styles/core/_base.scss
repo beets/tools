@@ -6,7 +6,7 @@
   }
 
   *:focus-visible:focus {
-    outline: 1px dashed currentcolor;
+    outline: 1.5px dashed currentcolor;
     outline-offset: var(--outline-offset);
   }
 }

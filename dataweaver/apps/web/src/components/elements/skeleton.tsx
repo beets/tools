@@ -23,7 +23,7 @@ interface SkeletonProps {
 /** Animated placeholder lines shown in place of content while it loads. */
 export const Skeleton = ({
   widths = DEFAULT_LINE_WIDTHS,
-  label = 'Loading…',
+  label = 'loading…',
 }: SkeletonProps) => {
   return (
     <div className={s.container} role="status">
